@@ -1,0 +1,753 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		101A108725AC20C50000D5EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101A108625AC20C50000D5EE /* AppDelegate.swift */; };
+		101A108925AC20C50000D5EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101A108825AC20C50000D5EE /* SceneDelegate.swift */; };
+		101A108B25AC20C50000D5EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101A108A25AC20C50000D5EE /* ViewController.swift */; };
+		101A108E25AC20C50000D5EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 101A108C25AC20C50000D5EE /* Main.storyboard */; };
+		101A109025AC20C80000D5EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 101A108F25AC20C80000D5EE /* Assets.xcassets */; };
+		101A109325AC20C80000D5EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 101A109125AC20C80000D5EE /* LaunchScreen.storyboard */; };
+		101A109E25AC20C80000D5EE /* J_jwt_libraryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101A109D25AC20C80000D5EE /* J_jwt_libraryTests.swift */; };
+		101A10A925AC20C80000D5EE /* J_jwt_libraryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101A10A825AC20C80000D5EE /* J_jwt_libraryUITests.swift */; };
+		1EE00FF9A8693B57A1E1B27C /* Pods_J_jwt_library.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A375A378887961988EB1D17F /* Pods_J_jwt_library.framework */; };
+		78C25C48CFB2FEA7991779A8 /* Pods_J_jwt_libraryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F4C391C5A1075FBC5207B3B /* Pods_J_jwt_libraryTests.framework */; };
+		C8B5887B70AEB7B8DFCC63A2 /* Pods_J_jwt_library_J_jwt_libraryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5582FA604A66DF63F4167AB /* Pods_J_jwt_library_J_jwt_libraryUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		101A109A25AC20C80000D5EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 101A107B25AC20C50000D5EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 101A108225AC20C50000D5EE;
+			remoteInfo = "J.jwt-library";
+		};
+		101A10A525AC20C80000D5EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 101A107B25AC20C50000D5EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 101A108225AC20C50000D5EE;
+			remoteInfo = "J.jwt-library";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07E1310471419919CF016AF1 /* Pods-J.jwt-library.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-J.jwt-library.release.xcconfig"; path = "Target Support Files/Pods-J.jwt-library/Pods-J.jwt-library.release.xcconfig"; sourceTree = "<group>"; };
+		101A108325AC20C50000D5EE /* J.jwt-library.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "J.jwt-library.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		101A108625AC20C50000D5EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		101A108825AC20C50000D5EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		101A108A25AC20C50000D5EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		101A108D25AC20C50000D5EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		101A108F25AC20C80000D5EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		101A109225AC20C80000D5EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		101A109425AC20C80000D5EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		101A109925AC20C80000D5EE /* J.jwt-libraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "J.jwt-libraryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		101A109D25AC20C80000D5EE /* J_jwt_libraryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = J_jwt_libraryTests.swift; sourceTree = "<group>"; };
+		101A109F25AC20C80000D5EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		101A10A425AC20C80000D5EE /* J.jwt-libraryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "J.jwt-libraryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		101A10A825AC20C80000D5EE /* J_jwt_libraryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = J_jwt_libraryUITests.swift; sourceTree = "<group>"; };
+		101A10AA25AC20C80000D5EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F4C391C5A1075FBC5207B3B /* Pods_J_jwt_libraryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_J_jwt_libraryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F69EDFC688BECF10DE18BB8 /* Pods-J.jwt-library-J.jwt-libraryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-J.jwt-library-J.jwt-libraryUITests.release.xcconfig"; path = "Target Support Files/Pods-J.jwt-library-J.jwt-libraryUITests/Pods-J.jwt-library-J.jwt-libraryUITests.release.xcconfig"; sourceTree = "<group>"; };
+		720F6C6D90E8CBE80E6F7FB2 /* Pods-J.jwt-libraryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-J.jwt-libraryTests.debug.xcconfig"; path = "Target Support Files/Pods-J.jwt-libraryTests/Pods-J.jwt-libraryTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9062B9E545B98B9FAB7DBBB8 /* Pods-J.jwt-libraryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-J.jwt-libraryTests.release.xcconfig"; path = "Target Support Files/Pods-J.jwt-libraryTests/Pods-J.jwt-libraryTests.release.xcconfig"; sourceTree = "<group>"; };
+		9EFBB9C17E09D891EAE3F6F5 /* Pods-J.jwt-library-J.jwt-libraryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-J.jwt-library-J.jwt-libraryUITests.debug.xcconfig"; path = "Target Support Files/Pods-J.jwt-library-J.jwt-libraryUITests/Pods-J.jwt-library-J.jwt-libraryUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A375A378887961988EB1D17F /* Pods_J_jwt_library.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_J_jwt_library.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5582FA604A66DF63F4167AB /* Pods_J_jwt_library_J_jwt_libraryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_J_jwt_library_J_jwt_libraryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6F1A1A1CA8EA211196B340F /* Pods-J.jwt-library.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-J.jwt-library.debug.xcconfig"; path = "Target Support Files/Pods-J.jwt-library/Pods-J.jwt-library.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		101A108025AC20C50000D5EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EE00FF9A8693B57A1E1B27C /* Pods_J_jwt_library.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		101A109625AC20C80000D5EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78C25C48CFB2FEA7991779A8 /* Pods_J_jwt_libraryTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		101A10A125AC20C80000D5EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8B5887B70AEB7B8DFCC63A2 /* Pods_J_jwt_library_J_jwt_libraryUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		101A107A25AC20C50000D5EE = {
+			isa = PBXGroup;
+			children = (
+				101A108525AC20C50000D5EE /* J.jwt-library */,
+				101A109C25AC20C80000D5EE /* J.jwt-libraryTests */,
+				101A10A725AC20C80000D5EE /* J.jwt-libraryUITests */,
+				101A108425AC20C50000D5EE /* Products */,
+				7B1EF609E3C409C65B28499E /* Pods */,
+				BCBF4660AFCBE3EA369B8899 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		101A108425AC20C50000D5EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				101A108325AC20C50000D5EE /* J.jwt-library.app */,
+				101A109925AC20C80000D5EE /* J.jwt-libraryTests.xctest */,
+				101A10A425AC20C80000D5EE /* J.jwt-libraryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		101A108525AC20C50000D5EE /* J.jwt-library */ = {
+			isa = PBXGroup;
+			children = (
+				101A108625AC20C50000D5EE /* AppDelegate.swift */,
+				101A108825AC20C50000D5EE /* SceneDelegate.swift */,
+				101A108A25AC20C50000D5EE /* ViewController.swift */,
+				101A108C25AC20C50000D5EE /* Main.storyboard */,
+				101A108F25AC20C80000D5EE /* Assets.xcassets */,
+				101A109125AC20C80000D5EE /* LaunchScreen.storyboard */,
+				101A109425AC20C80000D5EE /* Info.plist */,
+			);
+			path = "J.jwt-library";
+			sourceTree = "<group>";
+		};
+		101A109C25AC20C80000D5EE /* J.jwt-libraryTests */ = {
+			isa = PBXGroup;
+			children = (
+				101A109D25AC20C80000D5EE /* J_jwt_libraryTests.swift */,
+				101A109F25AC20C80000D5EE /* Info.plist */,
+			);
+			path = "J.jwt-libraryTests";
+			sourceTree = "<group>";
+		};
+		101A10A725AC20C80000D5EE /* J.jwt-libraryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				101A10A825AC20C80000D5EE /* J_jwt_libraryUITests.swift */,
+				101A10AA25AC20C80000D5EE /* Info.plist */,
+			);
+			path = "J.jwt-libraryUITests";
+			sourceTree = "<group>";
+		};
+		7B1EF609E3C409C65B28499E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6F1A1A1CA8EA211196B340F /* Pods-J.jwt-library.debug.xcconfig */,
+				07E1310471419919CF016AF1 /* Pods-J.jwt-library.release.xcconfig */,
+				9EFBB9C17E09D891EAE3F6F5 /* Pods-J.jwt-library-J.jwt-libraryUITests.debug.xcconfig */,
+				4F69EDFC688BECF10DE18BB8 /* Pods-J.jwt-library-J.jwt-libraryUITests.release.xcconfig */,
+				720F6C6D90E8CBE80E6F7FB2 /* Pods-J.jwt-libraryTests.debug.xcconfig */,
+				9062B9E545B98B9FAB7DBBB8 /* Pods-J.jwt-libraryTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BCBF4660AFCBE3EA369B8899 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A375A378887961988EB1D17F /* Pods_J_jwt_library.framework */,
+				B5582FA604A66DF63F4167AB /* Pods_J_jwt_library_J_jwt_libraryUITests.framework */,
+				4F4C391C5A1075FBC5207B3B /* Pods_J_jwt_libraryTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		101A108225AC20C50000D5EE /* J.jwt-library */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 101A10AD25AC20C80000D5EE /* Build configuration list for PBXNativeTarget "J.jwt-library" */;
+			buildPhases = (
+				A50EF01864B281A127E5FB84 /* [CP] Check Pods Manifest.lock */,
+				101A107F25AC20C50000D5EE /* Sources */,
+				101A108025AC20C50000D5EE /* Frameworks */,
+				101A108125AC20C50000D5EE /* Resources */,
+				9A18D8AB2DBE51EB79175BAA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "J.jwt-library";
+			productName = "J.jwt-library";
+			productReference = 101A108325AC20C50000D5EE /* J.jwt-library.app */;
+			productType = "com.apple.product-type.application";
+		};
+		101A109825AC20C80000D5EE /* J.jwt-libraryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 101A10B025AC20C80000D5EE /* Build configuration list for PBXNativeTarget "J.jwt-libraryTests" */;
+			buildPhases = (
+				B60A17DABD11C880262EE9EC /* [CP] Check Pods Manifest.lock */,
+				101A109525AC20C80000D5EE /* Sources */,
+				101A109625AC20C80000D5EE /* Frameworks */,
+				101A109725AC20C80000D5EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				101A109B25AC20C80000D5EE /* PBXTargetDependency */,
+			);
+			name = "J.jwt-libraryTests";
+			productName = "J.jwt-libraryTests";
+			productReference = 101A109925AC20C80000D5EE /* J.jwt-libraryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		101A10A325AC20C80000D5EE /* J.jwt-libraryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 101A10B325AC20C80000D5EE /* Build configuration list for PBXNativeTarget "J.jwt-libraryUITests" */;
+			buildPhases = (
+				A6B0B5511B02DA1D996CB8AA /* [CP] Check Pods Manifest.lock */,
+				101A10A025AC20C80000D5EE /* Sources */,
+				101A10A125AC20C80000D5EE /* Frameworks */,
+				101A10A225AC20C80000D5EE /* Resources */,
+				046FCBC3F8358E68348A3171 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				101A10A625AC20C80000D5EE /* PBXTargetDependency */,
+			);
+			name = "J.jwt-libraryUITests";
+			productName = "J.jwt-libraryUITests";
+			productReference = 101A10A425AC20C80000D5EE /* J.jwt-libraryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		101A107B25AC20C50000D5EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					101A108225AC20C50000D5EE = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					101A109825AC20C80000D5EE = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 101A108225AC20C50000D5EE;
+					};
+					101A10A325AC20C80000D5EE = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 101A108225AC20C50000D5EE;
+					};
+				};
+			};
+			buildConfigurationList = 101A107E25AC20C50000D5EE /* Build configuration list for PBXProject "J.jwt-library" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 101A107A25AC20C50000D5EE;
+			productRefGroup = 101A108425AC20C50000D5EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				101A108225AC20C50000D5EE /* J.jwt-library */,
+				101A109825AC20C80000D5EE /* J.jwt-libraryTests */,
+				101A10A325AC20C80000D5EE /* J.jwt-libraryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		101A108125AC20C50000D5EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				101A109325AC20C80000D5EE /* LaunchScreen.storyboard in Resources */,
+				101A109025AC20C80000D5EE /* Assets.xcassets in Resources */,
+				101A108E25AC20C50000D5EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		101A109725AC20C80000D5EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		101A10A225AC20C80000D5EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		046FCBC3F8358E68348A3171 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-J.jwt-library-J.jwt-libraryUITests/Pods-J.jwt-library-J.jwt-libraryUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-J.jwt-library-J.jwt-libraryUITests/Pods-J.jwt-library-J.jwt-libraryUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-J.jwt-library-J.jwt-libraryUITests/Pods-J.jwt-library-J.jwt-libraryUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A18D8AB2DBE51EB79175BAA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-J.jwt-library/Pods-J.jwt-library-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-J.jwt-library/Pods-J.jwt-library-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-J.jwt-library/Pods-J.jwt-library-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A50EF01864B281A127E5FB84 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-J.jwt-library-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6B0B5511B02DA1D996CB8AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-J.jwt-library-J.jwt-libraryUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B60A17DABD11C880262EE9EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-J.jwt-libraryTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		101A107F25AC20C50000D5EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				101A108B25AC20C50000D5EE /* ViewController.swift in Sources */,
+				101A108725AC20C50000D5EE /* AppDelegate.swift in Sources */,
+				101A108925AC20C50000D5EE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		101A109525AC20C80000D5EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				101A109E25AC20C80000D5EE /* J_jwt_libraryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		101A10A025AC20C80000D5EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				101A10A925AC20C80000D5EE /* J_jwt_libraryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		101A109B25AC20C80000D5EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 101A108225AC20C50000D5EE /* J.jwt-library */;
+			targetProxy = 101A109A25AC20C80000D5EE /* PBXContainerItemProxy */;
+		};
+		101A10A625AC20C80000D5EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 101A108225AC20C50000D5EE /* J.jwt-library */;
+			targetProxy = 101A10A525AC20C80000D5EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		101A108C25AC20C50000D5EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				101A108D25AC20C50000D5EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		101A109125AC20C80000D5EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				101A109225AC20C80000D5EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		101A10AB25AC20C80000D5EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		101A10AC25AC20C80000D5EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		101A10AE25AC20C80000D5EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6F1A1A1CA8EA211196B340F /* Pods-J.jwt-library.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T65C7T9L22;
+				INFOPLIST_FILE = "J.jwt-library/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jinyoung.J-jwt-library";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		101A10AF25AC20C80000D5EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07E1310471419919CF016AF1 /* Pods-J.jwt-library.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T65C7T9L22;
+				INFOPLIST_FILE = "J.jwt-library/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jinyoung.J-jwt-library";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		101A10B125AC20C80000D5EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 720F6C6D90E8CBE80E6F7FB2 /* Pods-J.jwt-libraryTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T65C7T9L22;
+				INFOPLIST_FILE = "J.jwt-libraryTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jinyoung.J-jwt-libraryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/J.jwt-library.app/J.jwt-library";
+			};
+			name = Debug;
+		};
+		101A10B225AC20C80000D5EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9062B9E545B98B9FAB7DBBB8 /* Pods-J.jwt-libraryTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T65C7T9L22;
+				INFOPLIST_FILE = "J.jwt-libraryTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jinyoung.J-jwt-libraryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/J.jwt-library.app/J.jwt-library";
+			};
+			name = Release;
+		};
+		101A10B425AC20C80000D5EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EFBB9C17E09D891EAE3F6F5 /* Pods-J.jwt-library-J.jwt-libraryUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T65C7T9L22;
+				INFOPLIST_FILE = "J.jwt-libraryUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jinyoung.J-jwt-libraryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "J.jwt-library";
+			};
+			name = Debug;
+		};
+		101A10B525AC20C80000D5EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F69EDFC688BECF10DE18BB8 /* Pods-J.jwt-library-J.jwt-libraryUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T65C7T9L22;
+				INFOPLIST_FILE = "J.jwt-libraryUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jinyoung.J-jwt-libraryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "J.jwt-library";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		101A107E25AC20C50000D5EE /* Build configuration list for PBXProject "J.jwt-library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				101A10AB25AC20C80000D5EE /* Debug */,
+				101A10AC25AC20C80000D5EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		101A10AD25AC20C80000D5EE /* Build configuration list for PBXNativeTarget "J.jwt-library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				101A10AE25AC20C80000D5EE /* Debug */,
+				101A10AF25AC20C80000D5EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		101A10B025AC20C80000D5EE /* Build configuration list for PBXNativeTarget "J.jwt-libraryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				101A10B125AC20C80000D5EE /* Debug */,
+				101A10B225AC20C80000D5EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		101A10B325AC20C80000D5EE /* Build configuration list for PBXNativeTarget "J.jwt-libraryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				101A10B425AC20C80000D5EE /* Debug */,
+				101A10B525AC20C80000D5EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 101A107B25AC20C50000D5EE /* Project object */;
+}
