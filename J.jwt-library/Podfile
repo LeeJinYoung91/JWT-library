@@ -4,7 +4,7 @@
 target 'J.jwt-library' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-  pod 'SwiftyJWT'
+
   # Pods for J.jwt-library
 
   target 'J.jwt-libraryTests' do

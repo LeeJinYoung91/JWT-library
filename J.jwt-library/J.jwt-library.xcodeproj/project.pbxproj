@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,10 @@
 		101A109325AC20C80000D5EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 101A109125AC20C80000D5EE /* LaunchScreen.storyboard */; };
 		101A109E25AC20C80000D5EE /* J_jwt_libraryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101A109D25AC20C80000D5EE /* J_jwt_libraryTests.swift */; };
 		101A10A925AC20C80000D5EE /* J_jwt_libraryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101A10A825AC20C80000D5EE /* J_jwt_libraryUITests.swift */; };
+		101A10C325AC2B160000D5EE /* JWTKit in Frameworks */ = {isa = PBXBuildFile; productRef = 101A10C225AC2B160000D5EE /* JWTKit */; };
+		101A10E225AC396D0000D5EE /* TokenCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 101A10E125AC396D0000D5EE /* TokenCreator.m */; };
+		101A10E325AC396D0000D5EE /* TokenCreator.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 101A10E025AC396D0000D5EE /* TokenCreator.h */; };
+		101A10EE25AC397E0000D5EE /* Creator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101A10ED25AC397E0000D5EE /* Creator.swift */; };
 		1EE00FF9A8693B57A1E1B27C /* Pods_J_jwt_library.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A375A378887961988EB1D17F /* Pods_J_jwt_library.framework */; };
 		78C25C48CFB2FEA7991779A8 /* Pods_J_jwt_libraryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F4C391C5A1075FBC5207B3B /* Pods_J_jwt_libraryTests.framework */; };
 		C8B5887B70AEB7B8DFCC63A2 /* Pods_J_jwt_library_J_jwt_libraryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5582FA604A66DF63F4167AB /* Pods_J_jwt_library_J_jwt_libraryUITests.framework */; };
@@ -37,6 +41,19 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		101A10DC25AC396D0000D5EE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				101A10E325AC396D0000D5EE /* TokenCreator.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		07E1310471419919CF016AF1 /* Pods-J.jwt-library.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-J.jwt-library.release.xcconfig"; path = "Target Support Files/Pods-J.jwt-library/Pods-J.jwt-library.release.xcconfig"; sourceTree = "<group>"; };
 		101A108325AC20C50000D5EE /* J.jwt-library.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "J.jwt-library.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +70,11 @@
 		101A10A425AC20C80000D5EE /* J.jwt-libraryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "J.jwt-libraryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		101A10A825AC20C80000D5EE /* J_jwt_libraryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = J_jwt_libraryUITests.swift; sourceTree = "<group>"; };
 		101A10AA25AC20C80000D5EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		101A10DE25AC396D0000D5EE /* libTokenCreator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTokenCreator.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		101A10E025AC396D0000D5EE /* TokenCreator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TokenCreator.h; sourceTree = "<group>"; };
+		101A10E125AC396D0000D5EE /* TokenCreator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TokenCreator.m; sourceTree = "<group>"; };
+		101A10EC25AC397E0000D5EE /* TokenCreator-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TokenCreator-Bridging-Header.h"; sourceTree = "<group>"; };
+		101A10ED25AC397E0000D5EE /* Creator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Creator.swift; sourceTree = "<group>"; };
 		4F4C391C5A1075FBC5207B3B /* Pods_J_jwt_libraryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_J_jwt_libraryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F69EDFC688BECF10DE18BB8 /* Pods-J.jwt-library-J.jwt-libraryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-J.jwt-library-J.jwt-libraryUITests.release.xcconfig"; path = "Target Support Files/Pods-J.jwt-library-J.jwt-libraryUITests/Pods-J.jwt-library-J.jwt-libraryUITests.release.xcconfig"; sourceTree = "<group>"; };
 		720F6C6D90E8CBE80E6F7FB2 /* Pods-J.jwt-libraryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-J.jwt-libraryTests.debug.xcconfig"; path = "Target Support Files/Pods-J.jwt-libraryTests/Pods-J.jwt-libraryTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -69,6 +91,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EE00FF9A8693B57A1E1B27C /* Pods_J_jwt_library.framework in Frameworks */,
+				101A10C325AC2B160000D5EE /* JWTKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +111,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		101A10DB25AC396D0000D5EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -97,6 +127,7 @@
 				101A108525AC20C50000D5EE /* J.jwt-library */,
 				101A109C25AC20C80000D5EE /* J.jwt-libraryTests */,
 				101A10A725AC20C80000D5EE /* J.jwt-libraryUITests */,
+				101A10DF25AC396D0000D5EE /* TokenCreator */,
 				101A108425AC20C50000D5EE /* Products */,
 				7B1EF609E3C409C65B28499E /* Pods */,
 				BCBF4660AFCBE3EA369B8899 /* Frameworks */,
@@ -109,6 +140,7 @@
 				101A108325AC20C50000D5EE /* J.jwt-library.app */,
 				101A109925AC20C80000D5EE /* J.jwt-libraryTests.xctest */,
 				101A10A425AC20C80000D5EE /* J.jwt-libraryUITests.xctest */,
+				101A10DE25AC396D0000D5EE /* libTokenCreator.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -145,6 +177,17 @@
 			path = "J.jwt-libraryUITests";
 			sourceTree = "<group>";
 		};
+		101A10DF25AC396D0000D5EE /* TokenCreator */ = {
+			isa = PBXGroup;
+			children = (
+				101A10E025AC396D0000D5EE /* TokenCreator.h */,
+				101A10ED25AC397E0000D5EE /* Creator.swift */,
+				101A10E125AC396D0000D5EE /* TokenCreator.m */,
+				101A10EC25AC397E0000D5EE /* TokenCreator-Bridging-Header.h */,
+			);
+			path = TokenCreator;
+			sourceTree = "<group>";
+		};
 		7B1EF609E3C409C65B28499E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,7 +198,6 @@
 				720F6C6D90E8CBE80E6F7FB2 /* Pods-J.jwt-libraryTests.debug.xcconfig */,
 				9062B9E545B98B9FAB7DBBB8 /* Pods-J.jwt-libraryTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -180,13 +222,15 @@
 				101A107F25AC20C50000D5EE /* Sources */,
 				101A108025AC20C50000D5EE /* Frameworks */,
 				101A108125AC20C50000D5EE /* Resources */,
-				9A18D8AB2DBE51EB79175BAA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "J.jwt-library";
+			packageProductDependencies = (
+				101A10C225AC2B160000D5EE /* JWTKit */,
+			);
 			productName = "J.jwt-library";
 			productReference = 101A108325AC20C50000D5EE /* J.jwt-library.app */;
 			productType = "com.apple.product-type.application";
@@ -218,7 +262,6 @@
 				101A10A025AC20C80000D5EE /* Sources */,
 				101A10A125AC20C80000D5EE /* Frameworks */,
 				101A10A225AC20C80000D5EE /* Resources */,
-				046FCBC3F8358E68348A3171 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -229,6 +272,25 @@
 			productName = "J.jwt-libraryUITests";
 			productReference = 101A10A425AC20C80000D5EE /* J.jwt-libraryUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		101A10DD25AC396D0000D5EE /* TokenCreator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 101A10E425AC396D0000D5EE /* Build configuration list for PBXNativeTarget "TokenCreator" */;
+			buildPhases = (
+				101A10DA25AC396D0000D5EE /* Sources */,
+				101A10DB25AC396D0000D5EE /* Frameworks */,
+				101A10DC25AC396D0000D5EE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TokenCreator;
+			packageProductDependencies = (
+			);
+			productName = TokenCreator;
+			productReference = 101A10DE25AC396D0000D5EE /* libTokenCreator.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -250,6 +312,10 @@
 						CreatedOnToolsVersion = 12.2;
 						TestTargetID = 101A108225AC20C50000D5EE;
 					};
+					101A10DD25AC396D0000D5EE = {
+						CreatedOnToolsVersion = 12.2;
+						LastSwiftMigration = 1220;
+					};
 				};
 			};
 			buildConfigurationList = 101A107E25AC20C50000D5EE /* Build configuration list for PBXProject "J.jwt-library" */;
@@ -261,6 +327,9 @@
 				Base,
 			);
 			mainGroup = 101A107A25AC20C50000D5EE;
+			packageReferences = (
+				101A10C125AC2B160000D5EE /* XCRemoteSwiftPackageReference "jwt-kit" */,
+			);
 			productRefGroup = 101A108425AC20C50000D5EE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -268,6 +337,7 @@
 				101A108225AC20C50000D5EE /* J.jwt-library */,
 				101A109825AC20C80000D5EE /* J.jwt-libraryTests */,
 				101A10A325AC20C80000D5EE /* J.jwt-libraryUITests */,
+				101A10DD25AC396D0000D5EE /* TokenCreator */,
 			);
 		};
 /* End PBXProject section */
@@ -300,40 +370,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		046FCBC3F8358E68348A3171 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-J.jwt-library-J.jwt-libraryUITests/Pods-J.jwt-library-J.jwt-libraryUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-J.jwt-library-J.jwt-libraryUITests/Pods-J.jwt-library-J.jwt-libraryUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-J.jwt-library-J.jwt-libraryUITests/Pods-J.jwt-library-J.jwt-libraryUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9A18D8AB2DBE51EB79175BAA /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-J.jwt-library/Pods-J.jwt-library-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-J.jwt-library/Pods-J.jwt-library-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-J.jwt-library/Pods-J.jwt-library-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		A50EF01864B281A127E5FB84 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -429,6 +465,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		101A10DA25AC396D0000D5EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				101A10EE25AC397E0000D5EE /* Creator.swift in Sources */,
+				101A10E225AC396D0000D5EE /* TokenCreator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -519,6 +564,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = TokenCreator;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -573,6 +619,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = TokenCreator;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -708,6 +755,53 @@
 			};
 			name = Release;
 		};
+		101A10E525AC396D0000D5EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T65C7T9L22;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_INCLUDE_PATHS = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "TokenCreator/TokenCreator-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		101A10E625AC396D0000D5EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T65C7T9L22;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_INCLUDE_PATHS = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "TokenCreator/TokenCreator-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -747,7 +841,35 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		101A10E425AC396D0000D5EE /* Build configuration list for PBXNativeTarget "TokenCreator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				101A10E525AC396D0000D5EE /* Debug */,
+				101A10E625AC396D0000D5EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		101A10C125AC2B160000D5EE /* XCRemoteSwiftPackageReference "jwt-kit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/vapor/jwt-kit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		101A10C225AC2B160000D5EE /* JWTKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 101A10C125AC2B160000D5EE /* XCRemoteSwiftPackageReference "jwt-kit" */;
+			productName = JWTKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 101A107B25AC20C50000D5EE /* Project object */;
 }
